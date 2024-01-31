@@ -130,3 +130,23 @@ img {
 
 
 
+ @media(max-width: 768px){
+    .container{
+        width: 99vw;
+    }
+ }
+
+ @media(max-width: 480px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p{
+        font-size: 13px;
+    }
+ }
+
+ 
+
+
